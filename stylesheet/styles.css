@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Concert One', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.mouse {
+    cursor: url(../assets/img/w01-h.cur), default;
+}
+
+body {
+    background-image: url('../assets/img/background.png');
+    background-size: cover;
+}
+
+.boton {
+    cursor: url(../assets/img/w02-h.cur), pointer;
+    color: white;
+    font-family: 'Concert One';
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

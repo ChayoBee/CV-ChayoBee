@@ -10,10 +10,26 @@
     cursor: url(../assets/img/w01-h.cur), default;
 }
 
-body {
+.fondoI {
     background-image: url('../assets/img/background.png');
     background-size: cover;
 }
+
+.fondoA {
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+}
+
 .boton {
     cursor: url(../assets/img/w02-h.cur), pointer;
     color: white;

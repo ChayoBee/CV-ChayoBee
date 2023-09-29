@@ -14,7 +14,6 @@ body {
     background-image: url('../assets/img/background.png');
     background-size: cover;
 }
-
 .boton {
     cursor: url(../assets/img/w02-h.cur), pointer;
     color: white;

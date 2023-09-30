@@ -13,8 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 </head>
-<body class="mouse fondoA">
+<body class="mouse fondo2">
     <header class="container-fluid p-3 px-4 d-flex justify-content-between align-items-center">
         <div>
             <figure style="height: 100px; margin: 0;">
@@ -22,18 +25,18 @@
             </figure>
         </div>
         <div>
-            <nav class="d-none d-sm-block">
+            <nav class="d-none d-sm-block fs-3">
                 <ul class="d-flex justify-content-center align-items-center list-unstyled gap-3 m-0">
-                    <li class="text-white">
+                    <li class="text-white-50 boton" href="./index.html">
                         Home
                     </li>
-                    <li class="text-white-50">
+                    <li class="text-white boton" href="#">
                         About Me
                     </li>
-                    <li class="text-white-50">
+                    <li class="text-white-50 boton" href="./portfolio.html">
                         Proyectos
                     </li>
-                    <li class="text-white-50">
+                    <li class="text-white-50 boton" href="./colab.html">
                         Colaboradores
                     </li>
                 </ul>
@@ -42,7 +45,7 @@
         <nav class="navbar d-flex align-items-end d-sm-none navbar-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon boton"></span>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
@@ -52,22 +55,61 @@
                 <div class="offcanvas-body" style="background-color: #cc3300;">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./sorprice.html">Home</a>
+                      <a class="nav-link boton" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./sorprice.html">Features</a>
+                      <a class="nav-link active boton" href="#">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./sorprice.html">Pricing</a>
+                        <a class="nav-link boton" href="./portfolio.html">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./sorprice.html">Disable</a>
+                        <a class="nav-link boton" href="./colab.html">Colaboradores</a>
                     </li>
                 </div>
               </div>
             </div>
         </nav>
     </header>
+
+    <section>
+        <div class="container-fluid py-5 text-white">
+            <div class="container">
+              <div class="row g-5 encabezado">
+                <div class="col-12 col-lg-4 d-flex align-items-center">
+                  <figure class="foto"></figure>
+                </div>
+                <div class="title">
+                    <img src="./assets/img/Alice.png" alt="Alice"/>
+                    <h2 class="display-3 fw-bold my-0">About Me</h2>
+                    <img src="./assets/img/Ash.png" alt="Ash"/>
+                </div>
+                <div class="texto">
+                    <h3 class="fs-4">↳<span>Rosario Vicuña</span> / Chayo Bee / Nino Moonless</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!--
+        <div class="col-12 col-lg-8 d-flex flex-column justify-content-center">
+          <p class="fs-4 m-0"><span class="text-info">Hola!</span> Soy</p>
+          <hr />
+          <div class="fs-5 fw-light">
+            <p>Tranquilo, metódico y siempre dispuesto a ayudar.</p>
+            <p>
+              Me considero de aprendizaje rápido y en constante búsqueda de
+              cosas nuevas.
+            </p>
+            <p>
+              Actualmente cursando el bootcamp de Desarrollo Fullstack
+              JavaScript en la academia Desafío Latam.
+            </p>
+          </div>
+        </div>
+    -->
+        </div>
+    </section>
 
     <footer class="bg-dark text-center text-light p-4 d-flex flex-column align-items-center">
         <div class="social d-flex gap-4 fs-4">

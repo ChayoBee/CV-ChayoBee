@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Concert One', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 .mouse {
     cursor: url(../assets/img/w01-h.cur), default;
@@ -17,9 +17,9 @@
     height: 100%;
 }
 
-.fondoA {
+.fondo2 {
     background-image: url('../assets/img/wave.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -30,9 +30,46 @@
     padding-top: 50px;
 }
 
+.foto {
+    background-image: url(../assets/img/Foto.png);
+    background-position: center;
+    background-size: contain;
+    background-color: #17191a;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    display: flex;
+}
+
+.encabezado {
+    justify-content: center;
+    align-items: baseline;
+}
+
+.title {
+    color: #17191a;
+    font-family: 'Lilita One';
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
 .navegacion {
     display: flex;
     justify-content: space-around;
+}
+
+.texto {
+    color: #17191a;
+    font-family: Mooli;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-style: bold;
 }
 
 .boton {
@@ -47,4 +84,5 @@ footer {
     padding: 20px;
     text-align: center;
     color: white;
+    font-family: 'Mooli', sans-serif;
 }

@@ -73,7 +73,7 @@
     padding-left: 20px;
 }
 
-h4 {
+h4, h5 {
     font-family: 'Concert One';
 }
 
@@ -102,6 +102,10 @@ p {
     font-family: 'Concert One';
     display: flex;
     justify-content: space-around;
+}
+
+.botonF {
+    cursor: url(../assets/img/w02-h.cur)pointer;
 }
 
 footer {

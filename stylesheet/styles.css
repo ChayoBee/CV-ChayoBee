@@ -18,6 +18,9 @@
 }
 
 .fondoA {
+    background-image: url('../assets/img/wave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: white;
 }
 

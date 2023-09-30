@@ -63,13 +63,37 @@
 
 .texto {
     color: #17191a;
-    font-family: Mooli;
+    font-family: 'Mooli';
     display: flex;
     justify-content: center;
 }
 
-span {
-    font-style: bold;
+.subtitle {
+    font-family: 'Concert One';
+    padding-left: 20px;
+}
+
+h4 {
+    font-family: 'Concert One';
+}
+
+p {
+    font-family: Mooli;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.lista {
+    width: 95%;
+    font-family: 'Mooli';
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
 }
 
 .boton {

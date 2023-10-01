@@ -87,15 +87,23 @@ p {
     align-items: center;
 }
 
+.contenedor-chibi {
+    position: relative;
+    padding-top: 200px;
+}
+
 .chibi {
+    position: absolute;
+    top: 20px;
     display: flex;
     width: 200px;
 }
 
+
+
 .bloque {
     display: flex;
     flex-direction: column;
-    margin: 5px;
     border-radius: 5%;
 }
 

@@ -116,7 +116,7 @@ p {
 }
 
 .botonF {
-    cursor: url(../assets/img/w02-h.cur)pointer;
+    cursor: url(../assets/img/w02-h.cur), pointer;
 }
 
 footer {

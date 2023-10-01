@@ -81,6 +81,17 @@ p {
     font-family: Mooli;
 }
 
+.sad {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.chibi {
+    display: flex;
+    width: 200px;
+}
+
 .bloque {
     display: flex;
     flex-direction: column;

@@ -6,3 +6,7 @@ Cotribuí en los repositorios de:
 -https://github.com/linsijiLaGuara
 <br>
 -https://github.com/raulespmol
+<br> <br>
+Quiero destacar que usando sólo Css pude personalizar el cursor ❤
+<br>
+Sólo para presumir.
